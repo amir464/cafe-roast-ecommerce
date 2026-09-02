@@ -1,0 +1,25 @@
+{
+  "weekly": [
+    { "name": "شنبه", "value": 12 },
+    { "name": "یکشنبه", "value": 18 },
+    { "name": "دوشنبه", "value": 14 },
+    { "name": "سه‌شنبه", "value": 25 },
+    { "name": "چهارشنبه", "value": 22 },
+    { "name": "پنجشنبه", "value": 31 },
+    { "name": "جمعه", "value": 27 }
+  ],
+  "monthly": [
+    { "name": "فروردین", "value": 42 },
+    { "name": "اردیبهشت", "value": 55 },
+    { "name": "خرداد", "value": 49 },
+    { "name": "تیر", "value": 68 },
+    { "name": "مرداد", "value": 76 },
+    { "name": "شهریور", "value": 89 }
+  ],
+  "categories": [
+    { "name": "اسپرسو", "value": 35 },
+    { "name": "دمی", "value": 28 },
+    { "name": "تجهیزات", "value": 22 },
+    { "name": "سایر", "value": 15 }
+  ]
+}

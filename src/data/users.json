@@ -1,0 +1,24 @@
+[
+  {
+    "id": "admin",
+    "firstName": "مدیر",
+    "lastName": "فروشگاه",
+    "email": "admin@caferoast.ir",
+    "phone": "۰۹۱۲۱۲۳۴۵۶۷",
+    "role": "admin",
+    "status": "active",
+    "registeredAt": "۱۴۰۳/۰۱/۱۰",
+    "orderCount": 0
+  },
+  {
+    "id": "user",
+    "firstName": "سارا",
+    "lastName": "محمدی",
+    "email": "user@caferoast.ir",
+    "phone": "۰۹۱۲۳۴۵۶۷۸۹",
+    "role": "user",
+    "status": "active",
+    "registeredAt": "۱۴۰۳/۰۲/۲۱",
+    "orderCount": 8
+  }
+]

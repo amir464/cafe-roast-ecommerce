@@ -1,0 +1,8 @@
+[
+ {"id":"espresso","name":"قهوه اسپرسو","icon":"Coffee","description":"ترکیب‌های حرفه‌ای برای عصاره‌گیری غلیظ"},
+ {"id":"brew","name":"قهوه دمی","icon":"Droplets","description":"دانه‌های تک‌خاستگاه با عطرهای ظریف"},
+ {"id":"turkish","name":"قهوه ترک","icon":"Flame","description":"آسیاب نرم و طعمی اصیل"},
+ {"id":"instant","name":"قهوه فوری","icon":"Zap","description":"سریع، ساده و خوش‌طعم"},
+ {"id":"gear","name":"تجهیزات دم‌آوری","icon":"Settings","description":"ابزار دقیق برای یک فنجان بهتر"},
+ {"id":"accessory","name":"ماگ و اکسسوری","icon":"CupSoda","description":"همراه‌های زیبا برای لحظه قهوه"}
+]

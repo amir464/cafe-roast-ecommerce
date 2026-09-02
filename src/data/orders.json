@@ -1,0 +1,66 @@
+[
+  {
+    "id": "CR-1048",
+    "customerName": "سارا محمدی",
+    "date": "۱۴ مرداد ۱۴۰۵",
+    "total": 1580000,
+    "paymentStatus": "پرداخت شده",
+    "deliveryStatus": "در حال پردازش",
+    "items": [
+      {
+        "productId": "p1",
+        "title": "قهوه اسپرسو ترکیب ویژه",
+        "quantity": 2,
+        "price": 485000
+      }
+    ]
+  },
+  {
+    "id": "CR-1047",
+    "customerName": "علی رضایی",
+    "date": "۱۳ مرداد ۱۴۰۵",
+    "total": 2390000,
+    "paymentStatus": "پرداخت شده",
+    "deliveryStatus": "ارسال شده",
+    "items": [
+      {
+        "productId": "p7",
+        "title": "آسیاب قهوه دستی",
+        "quantity": 1,
+        "price": 1480000
+      }
+    ]
+  },
+  {
+    "id": "CR-1046",
+    "customerName": "نیلوفر کریمی",
+    "date": "۱۲ مرداد ۱۴۰۵",
+    "total": 890000,
+    "paymentStatus": "در انتظار",
+    "deliveryStatus": "در حال پردازش",
+    "items": [
+      {
+        "productId": "p5",
+        "title": "فرنچ پرس شیشه‌ای",
+        "quantity": 1,
+        "price": 890000
+      }
+    ]
+  },
+  {
+    "id": "CR-1045",
+    "customerName": "امیر حسینی",
+    "date": "۱۱ مرداد ۱۴۰۵",
+    "total": 1910000,
+    "paymentStatus": "پرداخت شده",
+    "deliveryStatus": "تحویل شده",
+    "items": [
+      {
+        "productId": "p2",
+        "title": "قهوه عربیکا اتیوپی",
+        "quantity": 1,
+        "price": 620000
+      }
+    ]
+  }
+]
