@@ -32,7 +32,7 @@ export function Settings() {
             <textarea defaultValue="تهران، خیابان کریمخان، پلاک ۱۲۸" />
           </label>
         </div>
-        <button className="inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)]">ذخیره تغییرات</button>
+        <button className="inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)]">ذخیره تغییرات</button>
       </section>
     </>
   )

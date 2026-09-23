@@ -8,7 +8,7 @@ export function NotFound() {
       <h1>۴۰۴</h1>
       <h2>این صفحه پیدا نشد</h2>
       <p>شاید آدرس را اشتباه وارد کرده‌اید یا صفحه جابه‌جا شده است.</p>
-      <Link className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)]" to="/">
+      <Link className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)]" to="/">
         بازگشت به خانه
       </Link>
     </div>

@@ -40,7 +40,7 @@ export function DashboardShell({
       )}
       <aside className={`fixed inset-y-0 right-0 z-[100] flex h-[100dvh] w-[min(85vw,320px)] flex-col overflow-y-auto bg-[var(--sidebar)] px-[17px] py-[25px] text-[var(--text-secondary)] shadow-[-16px_0_45px_var(--shadow)] transition-transform duration-300 lg:sticky lg:top-0 lg:z-auto lg:w-[270px] lg:translate-x-0 lg:shadow-none ${open ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="flex items-center gap-2.5 px-2.5 pb-7">
-          <Coffee className="h-[42px] w-[42px] rounded-full bg-[var(--primary)] p-[9px] text-white" />
+          <Coffee className="h-[42px] w-[42px] rounded-full bg-[var(--primary)] p-[9px] text-[var(--on-dark-primary)]" />
           <div className="flex flex-col">
             <b className="text-[21px] text-[var(--text-primary)]">کافه روست</b>
             <small className="text-[10px] tracking-[2px] text-[var(--text-secondary)]">{contextLabel}</small>
@@ -59,7 +59,7 @@ export function DashboardShell({
               key={path}
               to={path}
               onClick={() => setOpen(false)}
-              className={({ isActive }) => `flex min-h-11 items-center gap-3 rounded-[10px] px-3.5 py-3 text-sm leading-[1.6] hover:bg-[var(--active-nav-bg)] hover:text-[var(--accent)] ${isActive ? 'bg-[var(--active-nav-bg)] text-[var(--accent)] shadow-[inset_0_0_0_1px_var(--active-nav-border)] [&_svg]:text-[var(--primary)]' : ''}`}
+              className={({ isActive }) => `flex min-h-11 items-center gap-3 rounded-[10px] px-3.5 py-3 text-sm leading-[1.6] hover:bg-[var(--active-nav-bg)] hover:text-[var(--accent)] ${isActive ? 'bg-[var(--active-nav-bg)] text-[var(--accent)] shadow-[inset_0_0_0_1px_var(--active-nav-border)] [&_svg]:text-[var(--interactive)]' : ''}`}
             >
               <Icon size={20} />
               {label}
@@ -96,7 +96,7 @@ export function DashboardShell({
             </p>
           </div>
           <div className="flex items-center gap-2.5">
-            <span className="grid h-[41px] w-[41px] place-items-center rounded-full bg-[var(--surface-muted)] font-extrabold text-[var(--primary)]">{user?.firstName.charAt(0)}</span>
+            <span className="grid h-[41px] w-[41px] place-items-center rounded-full bg-[var(--surface-muted)] font-extrabold text-[var(--interactive)]">{user?.firstName.charAt(0)}</span>
             <div className="hidden flex-col text-[13px] sm:flex">
               <b>
                 {user?.firstName} {user?.lastName}

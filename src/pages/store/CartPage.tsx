@@ -49,7 +49,7 @@ export function CartPage() {
             description="محصولات تازه و خوش‌عطر ما منتظر شما هستند."
           />
           <div className="mt-[35px] text-center">
-            <Link className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)]" to="/shop">
+            <Link className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)]" to="/shop">
               شروع خرید
             </Link>
           </div>
@@ -125,7 +125,7 @@ export function CartPage() {
               <b>{formatPrice(total)}</b>
             </div>
 
-            <button className="my-[15px] inline-flex w-full items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)]">
+            <button className="my-[15px] inline-flex w-full items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)]">
               ادامه و ثبت سفارش
             </button>
             <Link className="block text-center text-[13px]" to="/shop">← ادامه خرید</Link>

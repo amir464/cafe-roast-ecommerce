@@ -20,7 +20,7 @@ export function CrudHeader({
         <p className="my-1 text-[13px] leading-[1.65] text-[var(--text-muted)]">{text}</p>
       </div>
       {action && (
-        <button className="inline-flex min-h-11 w-full shrink-0 items-center justify-center gap-2 rounded-xl border-0 bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)] sm:w-auto" onClick={onAction}>
+        <button className="inline-flex min-h-11 w-full shrink-0 items-center justify-center gap-2 rounded-xl border-0 bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)] sm:w-auto" onClick={onAction}>
           <Plus /> {action}
         </button>
       )}

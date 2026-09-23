@@ -42,7 +42,7 @@ export function InfoPage({ contact = false }: InfoPageProps) {
                 <textarea rows={5} />
               </label>
             </div>
-            <button className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)]">ارسال پیام</button>
+            <button className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)]">ارسال پیام</button>
           </section>
           <aside className="grid gap-3 [&>div]:rounded-[15px] [&>div]:bg-[var(--surface-muted)] [&>div]:p-[25px]">
             <div>

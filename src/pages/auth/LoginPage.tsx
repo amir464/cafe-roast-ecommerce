@@ -100,7 +100,7 @@ export function LoginPage() {
 
         {serverError && <div className="rounded-[9px] bg-[color-mix(in_srgb,var(--danger)_13%,var(--surface))] p-2.5 text-xs text-[var(--danger)]">{serverError}</div>}
 
-        <button className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 text-[15px] font-semibold text-white hover:bg-[var(--primary-hover)] disabled:cursor-not-allowed disabled:opacity-60" disabled={isSubmitting}>
+        <button className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 text-[15px] font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)] disabled:cursor-not-allowed disabled:opacity-60" disabled={isSubmitting}>
           {isSubmitting ? 'در حال ورود...' : 'ورود به حساب کاربری'}
         </button>
 

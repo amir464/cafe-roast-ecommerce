@@ -98,7 +98,7 @@ export function WeeklySalesChart({ data }: WeeklySalesChartProps) {
                     style={{ height: `${barHeight}%`, minHeight: '12px' }}
                   >
                     {isBestDay && (
-                      <span className="absolute inset-x-0 -top-6 hidden text-center text-xs font-medium text-[var(--primary)] sm:block">
+                      <span className="absolute inset-x-0 -top-6 hidden text-center text-xs font-medium text-[var(--interactive)] sm:block">
                         بیشترین
                       </span>
                     )}

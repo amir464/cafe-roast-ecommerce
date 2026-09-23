@@ -56,7 +56,7 @@ export function Reports() {
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4 [&_article]:flex [&_article]:items-start [&_article]:gap-[13px] [&_article]:rounded-2xl [&_article]:border [&_article]:border-[var(--border-subtle)] [&_article]:bg-[var(--card)] [&_article]:p-5 [&_article>span]:grid [&_article>span]:h-12 [&_article>span]:w-12 [&_article>span]:shrink-0 [&_article>span]:place-items-center [&_article>span]:rounded-xl [&_h3]:my-[3px] [&_h3]:text-[clamp(16px,4vw,23px)] [&_p]:m-0 [&_p]:text-[13px] [&_p]:text-[var(--text-muted)] [&_small]:text-xs [&_small]:text-[var(--success)]">
         <article>
-          <span className="bg-[color-mix(in_srgb,var(--primary)_13%,var(--surface))] text-[var(--primary)]">
+          <span className="bg-[color-mix(in_srgb,var(--primary)_13%,var(--surface))]text-[var(--interactive)]">
             <CreditCard />
           </span>
 

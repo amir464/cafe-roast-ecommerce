@@ -15,8 +15,8 @@ export function AuthShell({
 }: AuthShellProps) {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-[linear-gradient(135deg,var(--background-secondary),var(--surface-elevated))] px-4 py-5 sm:p-[35px]">
-      <Link className="mb-[25px] flex items-center gap-2.5 text-[var(--primary)]" to="/">
-        <Coffee className="h-[42px] w-[42px] rounded-full bg-[var(--primary)] p-[9px] text-white" />
+      <Link className="mb-[25px] flex items-center gap-2.5 text-[var(--interactive)]" to="/">
+        <Coffee className="h-[42px] w-[42px] rounded-full bg-[var(--primary)] p-[9px] text-[var(--on-dark-primary)]" />
         <div className="flex flex-col">
           <b className="text-[21px] text-[var(--text-primary)]">کافه روست</b>
           <small className="text-[10px] tracking-[2px] text-[var(--text-secondary)]">CAFE ROAST</small>
@@ -25,7 +25,7 @@ export function AuthShell({
 
       <div className="w-full max-w-[580px] rounded-[22px] border border-[var(--border)] bg-[var(--surface-elevated)] px-3.5 py-5 text-[var(--text-primary)] sm:p-8">
         <div className="text-center">
-          <span className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-[var(--surface-muted)] text-[var(--primary)]">
+          <span className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-[var(--surface-muted)] text-[var(--interactive)]">
             <Coffee />
           </span>
           <h1 className="mb-[3px] mt-[13px] text-[27px]">{title}</h1>

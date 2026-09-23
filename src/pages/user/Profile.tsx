@@ -57,7 +57,7 @@ export function Profile() {
             />
           </label>
         </div>
-        <button className="inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)]" onClick={() => updateProfile(form)}>
+        <button className="inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)]" onClick={() => updateProfile(form)}>
           ذخیره تغییرات
         </button>
       </section>

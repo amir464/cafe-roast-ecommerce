@@ -25,7 +25,7 @@ export function ConfirmDialog({
           <button className="inline-flex min-h-11 flex-1 items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--surface)] px-[22px] py-3 font-semibold text-[var(--text-primary)] hover:border-[var(--accent)] hover:bg-[var(--surface-muted)]" onClick={close}>
             انصراف
           </button>
-          <button className="inline-flex min-h-11 flex-1 items-center justify-center rounded-xl border-0 bg-[var(--danger)] px-[22px] py-3 font-semibold text-white hover:bg-[color-mix(in_srgb,var(--danger)_86%,var(--text-primary))]" onClick={accept}>
+          <button className="inline-flex min-h-11 flex-1 items-center justify-center rounded-xl border-0 bg-[var(--danger)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[color-mix(in_srgb,var(--danger)_86%,var(--text-primary))]" onClick={accept}>
             بله، حذف شود
           </button>
         </div>

@@ -53,7 +53,7 @@ export function RegisterPage() {
         <div className="p-[30px] text-center">
           <CheckCircle2 className="mx-auto h-[60px] w-[60px] text-[var(--success)]" />
           <p>اکنون می‌توانید با اطلاعات خود وارد شوید.</p>
-          <Link className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)]" to="/login">
+          <Link className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)]" to="/login">
             ورود به حساب
           </Link>
         </div>
@@ -104,7 +104,7 @@ export function RegisterPage() {
           <i>{errors.terms?.message}</i>
         </label>
 
-        <button className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-white hover:bg-[var(--primary-hover)] disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2" disabled={isSubmitting}>
+        <button className="inline-flex items-center justify-center rounded-xl bg-[var(--primary)] px-[22px] py-3 font-semibold text-[var(--on-dark-primary)] hover:bg-[var(--primary-hover)] disabled:cursor-not-allowed disabled:opacity-60 sm:col-span-2" disabled={isSubmitting}>
           ایجاد حساب کاربری
         </button>
 
