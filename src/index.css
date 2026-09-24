@@ -16,8 +16,13 @@ html {
 }
 body {
   margin: 0;
-  min-width: 320px;
+
   background: var(--background);
+}
+html,
+body,
+#root {
+  max-width: 100%;
 }
 body.drawer-open {
   overflow: hidden;
