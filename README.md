@@ -1,10 +1,10 @@
 # Cafe Roast
 
-A modern Persian RTL coffee shop ecommerce frontend built with React, TypeScript, and Vite.
+A modern Persian RTL coffee shop ecommerce frontend built with React, TypeScript, Vite, and Tailwind CSS.
 
-Cafe Roast is a responsive ecommerce demo application that simulates a real coffee store experience with product browsing, cart management, authentication, user/admin dashboards, reports, and theme customization.
+Cafe Roast is a full-featured ecommerce simulation designed to demonstrate a scalable frontend architecture with a customer storefront, authentication flow, user dashboard, admin management panel, reporting system, and production deployment using Docker and Nginx.
 
-The project focuses on clean frontend architecture, reusable components, responsive UI, and maintainable state management.
+The project focuses on clean frontend architecture, reusable components, responsive UI, maintainable state management, and separation of business logic from presentation.
 
 ## Features
 
@@ -14,6 +14,7 @@ The project focuses on clean frontend architecture, reusable components, respons
 - Shopping cart management
 - Wishlist functionality
 - Demo authentication system
+- Protected routes and role-based routing
 - User dashboard
 - Admin dashboard
 - Product management
@@ -21,6 +22,8 @@ The project focuses on clean frontend architecture, reusable components, respons
 - Sales reports and charts
 - Light and dark theme support
 - Persistent data with LocalStorage
+- Reusable UI components
+- Service-based data architecture
 - Docker deployment with Nginx
 
 ## Tech Stack
@@ -60,6 +63,7 @@ The project follows a modular frontend architecture:
 - Business logic is separated from UI components
 - Data access is handled through service files
 - Global states are managed using React Context API
+- Routes are protected based on user roles
 
 ## State Management
 
@@ -69,11 +73,11 @@ Context API is used for managing global application states:
 - Store state (cart, wishlist, products, orders)
 - Theme state
 
-For this project size, Context API provides a simple and maintainable solution without unnecessary complexity.
+For the current project scope, Context API provides a lightweight and maintainable approach for managing client-side application state.
 
 ## Project Structure
 
-```
+```text
 src
 ├── components
 │   ├── auth
@@ -104,13 +108,17 @@ src
 └── utils
 ```
 
+## Screenshots
+
+_Add project screenshots here_
+
 ## Demo Accounts
 
 These accounts are for demonstration purposes only.
 
 ### Admin Account
 
-```
+```text
 Email:
 admin@caferoast.ir
 
@@ -120,7 +128,7 @@ Password:
 
 ### User Account
 
-```
+```text
 Email:
 user@caferoast.ir
 
@@ -148,6 +156,14 @@ Run development server:
 npm run dev
 ```
 
+## Available Scripts
+
+```bash
+npm run dev
+npm run build
+npm run lint
+```
+
 ## Production Build
 
 Create production build:
@@ -164,29 +180,35 @@ npm run lint
 
 ## Docker Deployment
 
-Build and run the application:
+Build Docker image:
 
 ```bash
-docker compose up --build
+docker build -t cafe-roast .
+```
+
+Run container:
+
+```bash
+docker run -p 8080:80 cafe-roast
 ```
 
 Application will be available at:
 
-```
+```text
 http://localhost:8080
 ```
 
-Stop containers:
+Stop container:
 
 ```bash
-docker compose down
+docker stop <container_id>
 ```
 
 ## Future Improvements
 
 - Connect to a real backend API
 - Add real payment integration
-- Add React Query or Redux Toolkit Query for server state management
+- Add TanStack Query for server state management
 - Add automated testing
 - Add user analytics
 - Add advanced product filtering and search
